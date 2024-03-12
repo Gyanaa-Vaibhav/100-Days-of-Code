@@ -7,6 +7,10 @@ h1 {
     color: blue;
 }
 
+#test{
+    background-color: bisque;
+}
+
 /* (.) is the Class Selector can be used as many times as possible*/
 .red-heading{
     color: red;
@@ -20,4 +24,8 @@ h1 {
 
 p[draggabl="false"] {
     color: red;
+}
+
+.box{
+    background-color: aqua;
 }
