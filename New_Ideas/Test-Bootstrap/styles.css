@@ -1,0 +1,213 @@
+        .title {
+            background-color: black;
+            color: antiquewhite;
+            display: flex;
+            height: 60px;
+            width: 100%;
+            position: fixed;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo {
+            margin: 10px 0px 0px 50px;
+            font-size: 28px;
+        }
+
+        span {
+            background-color: white;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-right: 4px;
+            margin-left: 4px
+        }
+
+        ul {
+            columns: 5;
+            list-style: none;
+            margin-top: 15px;
+            align-self: center;
+        }
+
+        .nav_thing {
+            background-color: white;
+            height: 30px;
+            width: 30px;
+            box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+            margin-left: auto;
+            margin-right: 20px;
+            align-self: center;
+        }
+
+        #lines {
+            height: 2px;
+            background-color: black;
+            margin-top: 5px;
+            margin-left: 5px;
+            width: 20px;
+        }
+
+        .nav_items {
+            font-size: large;
+
+        }
+
+
+        .info {
+            font-size: 12px;
+        }
+
+        hr {
+            height: 5px;
+            background-color: black;
+        }
+        .content{
+            margin-top: 65px;
+        }
+
+        .quotemargin {
+            height: 15px;
+            background-color: black;
+        }
+
+        .author{
+            font-size: smaller;
+        }
+
+        @media (max-width: 450px) {
+            .nav_items {
+                font-size: 10px;
+                margin-top: 6px;
+            }
+
+            ul {
+                margin-top: 8px;
+            }
+
+            .logo {
+                margin-left: 20px;
+                font-size: medium;
+            }
+
+            .title {
+                height: 40px;
+            }
+
+            .nav_thing {
+                width: 20px;
+                height: 20px;
+            }
+
+            #lines {
+                margin-top: 3px;
+                margin-left: 3px;
+                width: 15px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+
+            hr {
+                height: 2px;
+                background-color: black;
+            }
+
+            .info {
+                font-size: 9px;
+            }
+
+            .quotemargin {
+                height: 10px;
+                background-color: black;
+            }
+
+            .leftspace {
+                display: none;
+            }
+
+            .content {
+                margin: 2%;
+                margin-top: 45px;
+            }
+
+            .rightspace {
+                display: none;
+                width: 0%;
+            }
+
+            .author{
+                font-size: 10px;
+            }
+
+            .maincontent {
+                /* justify-content: center; */
+            }
+        }
+
+        @media (min-width:451px) and (max-width:800px){
+            .title{
+                height: 50px;
+            }
+
+            .logo{
+                margin-left: 20px;
+                font-size: large;
+            }
+            
+            .nav_items{
+                font-size: 18px;
+                font-size: 15px;
+            }
+
+            .nav_thing{
+                width: 25px;
+                height: 25px;
+            }
+
+            #lines{
+                margin-top: 5px;
+                margin-left: 3.5px;
+                width: 18px;
+            }
+
+            .rightspace{
+                width: 10%;
+                display: none;
+            }
+
+            .leftspace{
+                width: 10%;
+                display: none;
+            }
+
+            .content{
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+
+        @media (min-width:801px){
+            .rightspace{
+                width: 20%;
+            }
+
+            .leftspace{
+                width: 20%;
+            }
+
+            .content{
+                width: 60%;
+            }
+
+        }
+
+
