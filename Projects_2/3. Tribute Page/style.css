@@ -1,0 +1,60 @@
+.heading{
+    margin: 10px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 3px;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 800;
+}
+
+h1{
+    margin: 0px;
+}
+
+.heading > p{
+    margin: 5px;
+}
+
+.quote{
+    display: flex;
+    margin: 10px 0px;
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+
+h2{
+    font-family: "PT Sans",sans-serif;
+}
+
+img{
+    margin: 10px 0px;
+    height: 300px;
+}
+
+.bio{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+.bio > p{
+    text-align: start;
+    margin: 10px 0px;
+}
+
+@media(max-width:700px){
+    img{
+        height: 150px;
+    }
+    h1{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+    h2{
+        font-size: medium;
+    }
+}

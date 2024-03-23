@@ -1,0 +1,46 @@
+.back{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.holder{
+    background-color: aqua;
+    text-align: center; width: 70%; height: 40vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h2, p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.inp input{
+    border: none;
+    height: 35px; width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    display: inline;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#button1{
+    background-color: rosybrown;
+    align-self: center;
+    border: none;
+    height: 35px; width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+button:hover{
+    background-color:azure;
+}

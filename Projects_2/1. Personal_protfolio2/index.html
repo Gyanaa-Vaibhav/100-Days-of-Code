@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="intro">
+        <img src="./Slice 1.png">
+        <h2>Gyanaa Vaibhav</h2>
+        <ul>
+            <li>Fullstack Developer</li>
+            |
+            <li>UI Desgin</li>
+            |
+            <li>App Developer</li>
+            |
+            <li>Data Scientist</li>
+        </ul>
+    </div>
+
+    <div id="about" class="about">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus porro autem veniam, fuga obcaecati et amet
+            omnis iste nam optio architecto consequuntur enim culpa iusto maiores eligendi error minus tempora.</p>
+    </div>
+
+    <div id="projects" class="projects">
+        <h2 style="text-align: center;">Projects</h2>
+        <div class="listpro">
+            <div class="card">a</div>
+            <div class="card">a</div>
+            <div class="card">a</div>
+        </div>
+    </div>
+
+    <div id="contact" class="contactme">
+        <div class="contactbox">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <div class="inp">
+                <p>First Name: </p><input placeholder="First Name">
+                <p>Last Name: </p><input placeholder="Last name">
+            </div>
+            <div class="inp">
+                <p>Email: </p><input style="width: 350px;" placeholder="Email">
+            </div>
+            <div class="inp">
+                <p>Description:</p>
+                <input class="desc" placeholder="Description">
+            </div>
+            <button id="btn">Send</button>
+        </div>
+        <div class="textbox">
+            <p>ok</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Gyanaa Vaibhav 2024</p>
+    </footer>
+
+    <script>
+
+        document.getElementById("btn").addEventListener("click",function(){
+            document.getElementById("btn").innerHTML = "Done"
+            document.getElementById("btn").style.height = "35px";
+            document.getElementById("btn").style.width = "85px";
+            document.getElementById("btn").style.padding = "5px";
+            document.getElementById("btn").style.transition = "all 100ms";
+        })
+
+    </script>
+</body>
+
+</html>

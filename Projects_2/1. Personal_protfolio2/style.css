@@ -1,0 +1,124 @@
+.intro{
+    text-align: center;
+    background-color: lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.about{
+    background-color: lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.about h2{
+    text-align: center;
+}
+
+footer{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 12px;
+}
+
+.intro ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.projects{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.listpro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 35vh;
+    background-color: rgba(105, 84, 84, 0.48);
+    margin: 10px 10px;
+    padding: 10px;
+    width: 50%; height: 35vh;
+    text-align: center;
+}
+
+#contact{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactbox{
+    width: 50%;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input{
+    height: 20px;
+    width: 100px;
+}
+
+.desc{
+    width: 200px;
+    height: 100px;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: antiquewhite;
+    border: none;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+.textbox{
+    margin-top: 10px;
+    background-color: lightgrey;
+}
