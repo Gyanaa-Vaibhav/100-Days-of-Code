@@ -1,14 +1,9 @@
 var in1 = document.getElementById("userWeight");
 var in2 = document.getElementById("userHeight");
-
-
-
 var btn1 = document.getElementById("button1");
-
 var output = document.getElementById("ans");
 
 function record() {
-
     if (in1.value == "" || in2.value == ""){
         alert("Please Enter a Value")
     }
