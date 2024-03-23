@@ -6,7 +6,7 @@
 
 .holder{
     background-color: aqua;
-    text-align: center; width: 70%; height: 40vh;
+    text-align: center; width: 500px; height: 40vh;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
