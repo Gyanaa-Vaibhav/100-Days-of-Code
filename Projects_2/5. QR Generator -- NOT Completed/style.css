@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Afacad,sans-serif;
+    width: 600px; height: 70vh;
+    margin: auto auto; margin-top: 100px;
+    background-color: #E0EAE4;
+    box-shadow: 0px 0px 15px 2px;
+}
+
+.search{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.search-bar{
+    border: none; border-radius: 30px;
+    height: 30px; width: 250px;
+    text-align: center;
+}
+svg{
+    margin-left: 10px;
+}
+
+p{
+    align-self: flex-start;
+    margin: 20px 170px;
+}
+
+img{
+    display: none;
+}
+
+.showimg{
+    display: block;
+    aspect-ratio: 16/9;
+    width: 300px;
+}
