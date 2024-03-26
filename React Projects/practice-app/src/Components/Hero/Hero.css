@@ -1,0 +1,23 @@
+.content{
+
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 120px);
+    gap: 10px;
+}
+
+.gridcontainer img{
+    order: -1;
+    grid-row: span 2;
+}
+
+.gridcontainer h1{
+    grid-column: span 2;
+}
+
+.gridcontainer p{
+    grid-column: span 2;
+}

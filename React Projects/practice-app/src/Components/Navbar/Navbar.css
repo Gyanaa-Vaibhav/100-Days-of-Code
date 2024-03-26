@@ -1,0 +1,40 @@
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+
+.nav-items{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0px 20px ; padding: 0px;
+    width: 100%;
+}
+
+
+.nav-bar li{
+    list-style: none;
+}
+
+.nav-bar li:hover{
+    cursor: pointer;
+}
+.nav-bar h1{
+    margin: 0px 0px;
+}
+
+.nav-items #Last{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+@media (max-width: 500px){
+    .nav-bar li{
+        font-size: 12px;
+    }
+    .nav-bar h1{
+        font-size: 18px;
+    }
+}
