@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Loan Calculator</title>
+</head>
+<body>
+    
+    <div class="holder">
+        <div class="container">
+            <h1>Loan Calculator</h1>
+            <label for="principle">Principle Amount :</label>
+            <input type="number" name="principle" id="principle" >
+            <label for="Interest">Interest  Percentage : </label>
+            <input type="number" name="Interest" id="Interest">
+            <label for="Years">Time in Years : </label>
+            <input type="number" name="Years" id="Years">
+            <button class="btn" id="btn">Calculate</button>
+            <div class="ansid" style="margin-top: 20px;">
+                <h3>Total Payment : </h3>
+                <p class="hidden" id="answer"></p>
+            </div>
+            <div class="ansid">
+                <h3>Payment Monthly :</h3>
+                <p class="hidden" id="answermonth"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

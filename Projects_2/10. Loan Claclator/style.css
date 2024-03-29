@@ -1,0 +1,54 @@
+.holder{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 500px;
+}
+.container h1{
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+label{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input{
+    margin: 10px 0px;
+    width: 180px;
+    height: 20px;
+}
+
+.btn{
+    background-color: darkolivegreen;
+    color: aliceblue;
+    border: none;
+    width: 80px;    height: 25px; margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: darkslategrey;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: inline;
+}
+
+.ansid{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
