@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(207, 80%, 62%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    /* background-color: aliceblue; */
+    width: auto;
+    margin-top: 200px;
+    margin-left: 10%; margin-right: 10%;
+    text-transform: uppercase;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;    
+}
+.cardgolder{
+    display: flex;
+    box-shadow: 0px 0px 20px 0.1px;
+}
+
+#image{
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+    padding: 0px 0px;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    color: rgba(70, 70, 227, 0.773);
+    font-weight: 400;
+    width: 200px;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+h3{
+    font-weight: 700; 
+}
